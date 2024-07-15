@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": false,
+    "jsx": "react",
+    "outDir": "./dist",
+    "declaration": false,
+    "noImplicitAny": true,
+    "strict": true,
+    "lib": ["esnext", "dom"],
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "target": "ESNext",
+    "typeRoots": ["./node_modules/@types", "../../node_modules/@types"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/templates/**/*", "node_modules", "dist", "src/templates"]
+}
